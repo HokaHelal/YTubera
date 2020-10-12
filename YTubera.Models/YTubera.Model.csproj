@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="GenericRepository.Model">
+      <HintPath>..\..\GenericRepository\GenericRepository.Model\bin\Debug\netcoreapp3.1\GenericRepository.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

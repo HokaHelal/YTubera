@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTubera.API", "YTubera.API\YTubera.API.csproj", "{5369AB05-B042-4F0B-B8F6-F41F344D48E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTubera.Model", "..\YTubera.Models\YTubera.Model.csproj", "{7385A021-99C5-4171-80BA-7836B3EBBB36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTubera.DataAccess", "..\YTubera.DataAccess\YTubera.DataAccess.csproj", "{D5DC4D00-7E84-4DEF-B66D-E852623EE8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTubera.DataService", "..\YTubera.DataService\YTubera.DataService.csproj", "{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5369AB05-B042-4F0B-B8F6-F41F344D48E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5369AB05-B042-4F0B-B8F6-F41F344D48E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5369AB05-B042-4F0B-B8F6-F41F344D48E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5369AB05-B042-4F0B-B8F6-F41F344D48E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7385A021-99C5-4171-80BA-7836B3EBBB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7385A021-99C5-4171-80BA-7836B3EBBB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7385A021-99C5-4171-80BA-7836B3EBBB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7385A021-99C5-4171-80BA-7836B3EBBB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DC4D00-7E84-4DEF-B66D-E852623EE8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DC4D00-7E84-4DEF-B66D-E852623EE8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DC4D00-7E84-4DEF-B66D-E852623EE8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DC4D00-7E84-4DEF-B66D-E852623EE8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B623A6C-A63C-44AF-ABA0-0A2413D8F344}
+	EndGlobalSection
+EndGlobal
