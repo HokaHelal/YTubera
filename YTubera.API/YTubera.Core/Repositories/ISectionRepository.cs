@@ -1,7 +1,7 @@
-﻿using GenericRepository;
+﻿using GenericRepository.Core;
 using YTubera.Model;
 
-namespace YTubera.DataAccess.Repositories
+namespace YTubera.Core.Repositories
 {
     public interface ISectionRepository : IGenericRepository<Section>
     {

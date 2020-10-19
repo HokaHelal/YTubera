@@ -9,4 +9,13 @@
     <ProjectReference Include="..\YTubera.Models\YTubera.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="GenericRepository.CoreService">
+      <HintPath>..\..\GenericRepository\GenericRepository.CoreService\bin\Debug\netcoreapp3.1\GenericRepository.CoreService.dll</HintPath>
+    </Reference>
+    <Reference Include="GenericRepository.Service">
+      <HintPath>..\..\GenericRepository\GenericRepository.Service\bin\Debug\netcoreapp3.1\GenericRepository.Service.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

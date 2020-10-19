@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -14,6 +15,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\YTubera.DataService\YTubera.DataService.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GenericRepository">
+      <HintPath>..\..\..\GenericRepository\GenericRepository\GenericRepository\bin\Debug\netcoreapp3.1\GenericRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="GenericRepository.Core">
+      <HintPath>..\..\..\GenericRepository\GenericRepository\GenericRepository\bin\Debug\netcoreapp3.1\GenericRepository.Core.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 

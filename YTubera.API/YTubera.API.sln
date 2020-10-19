@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTubera.Model", "..\YTubera
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTubera.DataAccess", "..\YTubera.DataAccess\YTubera.DataAccess.csproj", "{D5DC4D00-7E84-4DEF-B66D-E852623EE8FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTubera.DataService", "..\YTubera.DataService\YTubera.DataService.csproj", "{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTubera.DataService", "..\YTubera.DataService\YTubera.DataService.csproj", "{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTubera.Core", "YTubera.Core\YTubera.Core.csproj", "{BFE40CB0-B9F5-44E1-B3EE-7189A6A8F979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTubera.Dto", "..\YTubera.Dto\YTubera.Dto.csproj", "{16138BA9-F307-4AE8-BB03-79282485FA18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB8FFA1E-0387-49BE-BA27-F9CCB132792B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE40CB0-B9F5-44E1-B3EE-7189A6A8F979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE40CB0-B9F5-44E1-B3EE-7189A6A8F979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE40CB0-B9F5-44E1-B3EE-7189A6A8F979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE40CB0-B9F5-44E1-B3EE-7189A6A8F979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16138BA9-F307-4AE8-BB03-79282485FA18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16138BA9-F307-4AE8-BB03-79282485FA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16138BA9-F307-4AE8-BB03-79282485FA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16138BA9-F307-4AE8-BB03-79282485FA18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

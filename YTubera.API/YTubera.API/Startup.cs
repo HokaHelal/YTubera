@@ -10,7 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using YTubera.Core.Repositories;
 using YTubera.DataAccess;
+using YTubera.DataAccess.Repositories;
+using YTubera.DataAccess.UnitOfWork;
 
 namespace YTubera.API
 {
@@ -27,6 +30,15 @@ namespace YTubera.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("SqlDatabase")), ServiceLifetime.Transient);
+
+            services.AddControllers().AddNewtonsoftJson(opt =>
+            {
+                opt.SerializerSettings.ReferenceLoopHandling =
+                Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            }
+           );
+            services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<ICourseUnitOfWork, CourseUnitOfWork>();
 
             services.AddControllers();
         }

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\YTubera.Models\YTubera.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="GenericRepository.Core">
+      <HintPath>..\..\..\GenericRepository\GenericRepository.Core\bin\Debug\netcoreapp3.1\GenericRepository.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GenericRepository.Model">
+      <HintPath>..\..\..\GenericRepository\GenericRepository.Model\bin\Debug\netcoreapp3.1\GenericRepository.Model.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
